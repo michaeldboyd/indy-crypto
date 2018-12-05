@@ -1,6 +1,3 @@
-## Before you Continue
-
-If you haven't done so already, please visit the main resource for all things "Indy" to get acquainted with the code base, helpful resources, and up-to-date information: [Hyperledger Wiki-Indy](https://wiki.hyperledger.org/projects/indy).
 
 # Indy Crypto
 
@@ -23,7 +20,7 @@ us on [Jira's Rocket.Chat](chat.hyperledger.org) at #indy-sdk to discuss.
 ## Ubuntu 16.04
 
 1. Install Rust and rustup (https://www.rust-lang.org/install.html).
-1. Install pre-requirements:
+2. Install pre-requirements:
 
     *For Ubuntu 16.04*
 
@@ -45,7 +42,7 @@ us on [Jira's Rocket.Chat](chat.hyperledger.org) at #indy-sdk to discuss.
       * set OPENSSL_DIR=C:\BIN\x64
       * set PATH=C:\BIN\x64\lib;%PATH%
 
-1. Checkout and build the library:
+3. Checkout and build the library:
 
    ```bash
    git clone https://github.com/hyperledger/indy-crypto.git
@@ -54,7 +51,7 @@ us on [Jira's Rocket.Chat](chat.hyperledger.org) at #indy-sdk to discuss.
    cd ..
    ```
 
-1. Run tests
+4. Run tests
 
    ```bash
    cd libindy-crypto
